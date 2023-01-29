@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Landing />}/>
-          <Route path="/couter" element={<CharacterCounter />}/>
+          <Route path="/counter" element={<CharacterCounter />}/>
         </Routes>
       </Router>
     </RecoilRoot>
